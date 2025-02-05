@@ -8,8 +8,8 @@ function increment(points, team) {
     if(team === 'home') {
         score1 += points;
         scoreEl1.innerText = score1;
-    } else if(team === 'guest') {
+    } else if(team === 'away') {
         score2 += points;
         scoreEl2.innerText = score2;
     }
-}   
+}
